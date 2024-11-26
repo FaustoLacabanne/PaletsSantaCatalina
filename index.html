@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Palets Santa Catalina</title>
+    <link rel="icon" href="LOGO.png">
+    <link rel="stylesheet" href="CSS/ESTILOS_1.CSS">
+    <link rel="stylesheet" href="CSS/MEDIA_1.CSS">
+    <meta charset="utf-8">
+    <meta name="author" content="Fausto Lacabanne Rios">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".op-barras").click(function () {
+                $(".menu-adaptable").slideToggle("slow");
+            });
+        });
+
+        $(document).ready(function () {
+            $(".op-menu-oculto").click(function () {
+                $(".menu-adaptable").slideToggle("slow");
+            });
+        });
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"
+        charset="utf-8"></script>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+<body>
+    <nav style="background-color: rgba(0, 0, 0, 0.5); color: #860808; padding: 1px 0; font-family: 'Poppins', sans-serif;">
+        <div class="div-nav-2">
+            <img src="LOGO.png" id="waap-logo" alt="WAAP Logo" style="position: absolute; left: 0px; top: -15px;">
+   
+    
+            <ul style="list-style: none; padding: 0; display: flex; justify-content: center;">
+                <li class="op-menu"><a id="link-inicio" href="#home" style="font-size: 20px; color:#ffffff; font-family: 'Poppins', sans-serif; font-style: italic; font-weight: bold;">Inicio</a></li>
+                <li class="op-menu"><a id="link-info" href="#info" style="font-size: 20px; color:#ffffff; font-family: 'Poppins', sans-serif; font-style: italic; font-weight: bold;">Sobre Nosotros</a></li>
+                <li class="op-menu"><a id="link-hora-ubicacion" href="#HORA-Y-UBICACION" style="font-size: 20px; color:#ffffff; font-family: 'Poppins', sans-serif; font-style: italic; font-weight: bold;">Palets disponibles</a></li>
+                <li class="op-menu"><a id="link-venta" href="#CONTACTO" style="font-size: 20px; color:#ffffff; font-family: 'Poppins', sans-serif; font-style: italic; font-weight: bold;">Muestras</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="fixed-buttons">
+        <!-- Botón WhatsApp -->
+        <a href="https://api.whatsapp.com/send?phone=+59892512342&text=Hola%20estoy%20interesado%20en%20sus%20palets.%20Gracias!" target="_blank" class="whatsapp-fixed">
+           <img src="whatsapp.png" alt="WhatsApp" class="whatsapp-img">
+        </a>
+        
+        <!-- Botón Mail -->
+        <a href="mailto:lacabannefausto2@gmail.com?subject=Interés en sus palets&body=Hola, estoy interesado en sus palets. ¡Gracias!" class="Mailfixed">
+            <img src="mail (2).png" alt="Mail" class="mailimg">
+        </a>        
+     </div>
+     
+    
+    
+    
+    
+    <header id="home" style="background-color: #000000;">
+        <div id="carousel" style="width:100%; height:100vh; overflow:hidden;">
+            <video id="estudio" src="Presentación.mp4" style="width:100%; height:100%;" autoplay loop muted>
+                Tu navegador no soporta el elemento <video>.
+            </video>
+        </div>
+    </header>
+    
+    
+    
+    
+    <section id="info" style="background-color: #ffffff; color: #2427a0; padding: 40px 0;">
+        <div class="fila" style="display: flex; align-items: center;">
+          <div class="cuadro" style="flex: 1; padding: 10px;">
+            <img src="Sobre_Nosotros.jpg" alt="Imagen 1" style="width: 100%; height: auto; border-radius: 10px;">
+          </div>
+          <div class="cuadro" style="flex: 1; padding: 8px;">
+            <h2>Venta Palets</h5>
+            <p>Palets Santa Catalina es una empresa uruguaya con sede en la localidad de Santa Catalina, dedicada a la venta de palets para diversos sectores industriales, comerciales y logísticos. Contamos con una amplia variedad de palets, </p>
+            <p>diseñados para satisfacer las necesidades de transporte y almacenamiento de nuestros clientes, garantizando durabilidad y resistencia en cada producto.  Nuestra prioridad es ofrecer soluciones confiables y de calidad, combinadas con un servicio personalizado que busca adaptarse a las necesidades específicas de quienes confían en nosotros.</p>
+            <p>Ya sea para el manejo de grandes volúmenes o para pequeñas operaciones, en Palets Santa Catalina estamos comprometidos con la excelencia en cada detalle.
+
+                A continuación, está el botón para ver nuestra ubicación. </p>
+            <a href="https://maps.app.goo.gl/kR3cuHRZKXx5GzmCA" target="_blank" class="boton" style="background-color: #2427a0; color: #ffffff; padding: 10px 16px; border: none; border-radius: 5px; text-decoration: none; font-weight: bold;">Ver ubicación</a>
+          </div>
+        </div>
+      </section>
+    
+      <section id="HORA-Y-UBICACION" style="background-color: #f7f7f7; padding: 40px 20px; text-align: center;">
+        <div class="texto">
+            <div class="fila" style="display: flex; flex-wrap: wrap; justify-content: center;">
+                <div class="cuadro" style="flex: 1 1 300px; padding: 10px; max-width: 100%;">
+                    <img src="one way.jpg" alt="Imagen 1" style="width: 80%; max-width: 300px;">
+                    <div style="text-align: center; margin: 20px; font-family: Arial, sans-serif;">
+                        <h2 style="color: #2427a0; margin-bottom: 15px;">Palet One-Way</h2>
+                        <p style="font-weight: bold;">Fabricamos palets One-Way (de un solo uso) de diferentes capacidades de carga en todos los tamaños estándar. Ofrecemos nuevos palets de madera One-Way (de un solo uso) o desechables en tamaños de 600 mm x 800 mm, 800 mm x 1200 mm, 1000 mm x 1200 mm, así como en otros tamaños previa solicitud. También existen otras opciones de capacidad de carga o de calidad. En la fabricación, se utiliza tanto madera dura como blanda, garantizando un producto resistente y adaptado a las necesidades de nuestros clientes.</p>
+                    </div>
+                </div>
+                <div class="cuadro" style="flex: 1 1 300px; padding: 10px; max-width: 100%;">
+                    <img src="PaletsMedio.jpeg" alt="Imagen 2" style="width: 80%; max-width: 300px;">
+                    <div style="text-align: center; margin: 20px; font-family: Arial, sans-serif;">
+                        <h2 style="color: #2427a0; margin-bottom: 15px;">Palet Medio</h2>
+                        <p style="font-weight: bold;">Los palets medios son una variante de palets que se caracterizan por su tamaño intermedio entre los palets estándar (como el europeo de 800 mm x 1200 mm) y los palets pequeños. Son una solución ideal para aplicaciones donde el espacio es limitado o donde no se requiere transportar cargas de gran volumen.</p>
+                    </div>
+                </div>
+                <div class="cuadro" style="flex: 1 1 300px; padding: 10px; max-width: 100%;">
+                    <img src="heavy duty (1).jpeg" alt="Imagen 3" style="width: 80%; max-width: 300px;">
+                    <div style="text-align: center; margin: 20px; font-family: Arial, sans-serif;">
+                        <h2 style="color: #2427a0; margin-bottom: 15px;">Palet Heavy Duty</h2>
+                        <p style="font-weight: bold;">Los palets heavy duty son palets diseñados específicamente para soportar cargas pesadas y resistir condiciones de trabajo exigentes. Estos palets se caracterizan por su resistencia, durabilidad y capacidad para manejar grandes pesos, lo que los hace ideales para aplicaciones industriales e intensivas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <style>
+        @media (max-width: 768px) {
+            #HORA-Y-UBICACION .fila {
+                flex-direction: column; 
+            }
+            #HORA-Y-UBICACION .cuadro {
+                flex: 1 1 100%; 
+                padding: 10px 0; 
+            }
+            #HORA-Y-UBICACION img {
+                width: 90%; 
+                max-width: 250px; 
+                margin: 0 auto; 
+            }
+        }
+    </style>
+    
+    <script>
+        $(function () {
+            $('a[href*=#]').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                    && location.hostname == this.hostname) {
+                    var $target = $(this.hash);
+                    $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+                    if ($target.length) {
+                        var targetOffset = $target.offset().top;
+                        $('html,body').animate({ scrollTop: targetOffset }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+
+    </script>
+    <div class="GENERAL">
+        <div class="a"></div>
+        <div class="b">
+          <div class="b1">
+            <div class="col1"></div>
+            <div class="col2"></div>
+          </div>
+          <div class="b2"></div>
+          <div class="b3">
+            <div class="col3"></div>
+            <div class="col4"></div>
+          </div>
+        </div>
+        <div class="c"></div>
+      </div>
+    
+      <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel en #CONTACTO</title>
+    <style>
+
+        #CONTACTO {
+            width: 100%;
+            height: 520px;
+            background-size: cover;
+            background-position: center;
+            transition: background-image 0.5s ease-in-out;
+            position: relative;
+        }
+
+        .arrow {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border: none;
+        }
+
+        .arrow-left {
+            left: 20px;
+        }
+
+        .arrow-right {
+            right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Carrusel de imágenes -->
+    <div id="CONTACTO">
+        <div class="arrow arrow-left" onclick="changeImage('left')">&#10094;</div>
+        <div class="arrow arrow-right" onclick="changeImage('right')">&#10095;</div>
+    </div>
+
+    <script>
+
+        let currentImageIndex = 0;
+        const images = [
+            'Muestra1.jpg',
+            'Muestra2.jpg',
+            'Muestra3.jpeg',
+            'Muestra4.jpg'
+        ];
+
+        function changeImage(direction) {
+            if (direction === 'left') {
+                currentImageIndex = (currentImageIndex === 0) ? images.length - 1 : currentImageIndex - 1;
+            } else if (direction === 'right') {
+                currentImageIndex = (currentImageIndex === images.length - 1) ? 0 : currentImageIndex + 1;
+            }
+
+            document.getElementById('CONTACTO').style.backgroundImage = `url(${images[currentImageIndex]})`;
+        }
+        window.onload = () => {
+            changeImage('right');
+        };
+    </script>
+
+</section>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="contact-info">
+        <h2>Contacto</h2>
+        <div class="info-item">
+            <img src="ubicación.png" title="Ubicación" alt="Location Icon">
+            <p>Uruguay, Montevideo, Santa Catalina</p>
+        </div>
+        <div class="info-item">
+            <img src="mail.png" title="Email" alt="Email Icon">
+            <p>Palets@gmail.com</p>
+        </div>
+        <div class="info-item">
+            <img src="Telefono.png" title="Telefono" alt="Phone Icon">
+            <p>(+598) 92 292 220</p>
+        </div>
+    </div>
+    </body>
+    </html>
+    
